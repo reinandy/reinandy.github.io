@@ -43,6 +43,11 @@
             background-size: cover;
             background-position: center;
         }
+        .bg-food {
+            background-image: url('apel.png');
+            background-size: cover;
+            background-position: center;
+        }
         .up {
             transform: rotate(180deg);
         }
@@ -140,8 +145,8 @@
             // console.log(foodLocationSameWithSnakeLocation);
             generateRandomFood();
         } else {
-            $('.blok').removeClass('bg-danger');
-            $('#' + yy + '-' + + xx).addClass('bg-danger');
+            $('.blok').removeClass('bg-food');
+            $('#' + yy + '-' + + xx).addClass('bg-food');
         }
     }
 
